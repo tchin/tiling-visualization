@@ -1,0 +1,8 @@
+Given a list of ideals (from Macaulay2 output), visualize the edges in each component. Binomial terms will be drawn in red, while monomial terms will be drawn in blue.
+
+Instructions to use:
+1. Generate (radicals of) the primary decomposition of the ideal in Macaulay2
+2. Output the radical to a file using "[filename]" << toString [list of radicals] << close
+3. In the command line, type python visualize.py <m> <n> <path/to/file>, where m and n are the dimensions of the graph (the parameters you used in Macaulay2)
+
+A window will pop up showing a visualization of the edges contained in each ideal from the input file.
